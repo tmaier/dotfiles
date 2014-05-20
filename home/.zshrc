@@ -41,6 +41,6 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$HOME/.rbenv/bin:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
 
-DEFAULT_USER="tobiasmaier"
+DEFAULT_USER="tmaier"
 
 alias grep='/usr/local/bin/ggrep --color'
