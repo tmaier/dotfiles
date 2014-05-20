@@ -11,6 +11,7 @@ update
 upgrade
 
 cask install xquartz
+cask install trim-enabler
 
 install git
 install git-flow
