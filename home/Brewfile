@@ -11,7 +11,7 @@ update
 upgrade
 
 cask install xquartz
-cask install trim-enabler
+cask install chameleon-ssd-optimizer
 
 install git
 install git-flow
