@@ -1,0 +1,43 @@
+tap caskroom/cask
+install brew-cask
+
+install heroku-toolbelt
+install git
+install git-flow
+install openssl
+install rbenv
+install rbenv-gem-rehash
+install mongodb
+install postgresql
+install zsh
+install zsh-completions
+
+cask install google-chrome
+cask install atom
+cask install adobe-creative-cloud
+cask install cyberduck
+cask install dropbox
+cask install dterm
+cask install firefox
+cask install imageoptim
+cask install inkscape
+cask install iterm2
+cask install jabref
+cask install libreoffice
+cask install mactex
+cask install omnifocus
+cask install xtrafinder
+cask install osxfuse
+cask install parallels
+cask install rubymine
+cask install silverlight
+cask install flash-player
+cask install spotify
+cask install teamviewer
+cask install textmate
+cask install tower
+cask install virtualbox
+cask install vagrant
+cask install vlc
+cask install skype
+cask install crashplan
