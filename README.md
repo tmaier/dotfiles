@@ -28,3 +28,7 @@ homesick pull dotfiles
 
 1. Install [Homebrew](http://brew.sh)
 2. Run `brew bundle ~/Brewfile`
+
+## Whats remaining?
+
+1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
