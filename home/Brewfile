@@ -1,5 +1,15 @@
+# Install command-line tools using Homebrew
+# Usage: `brew bundle Brewfile`
+
 tap caskroom/cask
 install brew-cask
+
+# Make sure we’re using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
+
 cask install xquartz
 
 install heroku-toolbelt
@@ -42,3 +52,6 @@ cask install vagrant
 cask install vlc
 cask install skype
 cask install crashplan
+
+# Remove outdated versions from the cellar
+cleanup
