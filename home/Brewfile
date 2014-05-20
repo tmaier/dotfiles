@@ -12,7 +12,6 @@ upgrade
 
 cask install xquartz
 
-install heroku-toolbelt
 install git
 install git-flow
 install openssl
@@ -52,6 +51,7 @@ cask install vagrant
 cask install vlc
 cask install skype
 cask install crashplan
+cask install heroku-toolbelt
 
 # Remove outdated versions from the cellar
 cleanup
