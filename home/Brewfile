@@ -22,6 +22,8 @@ install mongodb
 install postgresql
 install zsh
 install zsh-completions
+install bash
+install bash-completion
 
 cask install google-chrome
 cask install atom
