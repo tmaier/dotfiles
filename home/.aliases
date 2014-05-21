@@ -24,7 +24,7 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 alias sudo='sudo '
 
 # Get OS X Software Updates, and update installed Homebrew, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew install ~/Brewfile'
+alias update='sudo softwareupdate -i -a; brew update; brew bundle ~/Brewfile'
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
@@ -32,3 +32,5 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+alias run-pg="postgres -D /usr/local/var/postgres"
