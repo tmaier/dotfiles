@@ -49,5 +49,10 @@ DEFAULT_USER="tmaier"
 
 eval "$(rbenv init -)"
 
-#Active zsh-completions
+# Add support for zsh online help
+unalias run-help
+autoload run-help
+HELPDIR=/usr/local/share/zsh/helpfiles
+
+# Activate zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
