@@ -48,3 +48,6 @@ source $ZSH/oh-my-zsh.sh
 DEFAULT_USER="tmaier"
 
 eval "$(rbenv init -)"
+
+#Active zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
