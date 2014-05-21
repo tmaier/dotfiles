@@ -22,6 +22,7 @@ install mongodb
 install postgresql
 install zsh
 install zsh-completions
+install zsh-syntax-highlighting
 install bash
 install bash-completion
 
