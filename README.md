@@ -24,6 +24,14 @@ homesick symlink dotfiles
 homesick pull dotfiles
 ```
 
+## Sensible OS X defaults
+
+When setting up a new Mac, you may want to set some sensible OS X defaults:
+
+```bash
+./.osx
+```
+
 ## Install Homebrew formulae
 
 1. Install [Homebrew](http://brew.sh)
