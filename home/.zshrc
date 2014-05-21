@@ -44,3 +44,5 @@ eval "$(rbenv init -)"
 DEFAULT_USER="tmaier"
 
 alias grep='/usr/local/bin/ggrep --color'
+
+export EDITOR='mate'
