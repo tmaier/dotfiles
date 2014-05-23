@@ -19,6 +19,7 @@ install openssl
 install ruby-build
 install rbenv
 install rbenv-gem-rehash
+install redis
 install mongodb
 install postgresql
 install zsh
