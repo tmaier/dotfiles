@@ -35,3 +35,4 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 alias run-pg="postgres -D /usr/local/var/postgres"
 alias run-rd="redis-server /usr/local/etc/redis.conf"
+alias run-md="mongod --config /usr/local/etc/mongod.conf"
