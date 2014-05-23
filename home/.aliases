@@ -34,3 +34,4 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
 alias run-pg="postgres -D /usr/local/var/postgres"
+alias run-rd="redis-server /usr/local/etc/redis.conf"
