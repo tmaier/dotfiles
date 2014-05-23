@@ -16,6 +16,7 @@ cask install chameleon-ssd-optimizer
 install git
 install git-flow
 install openssl
+install ruby-build
 install rbenv
 install rbenv-gem-rehash
 install mongodb
