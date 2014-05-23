@@ -1,5 +1,5 @@
 # Make TextMate the default editor
-export EDITOR="mate"
+export EDITOR="atom"
 
 # Always enable colored `grep` output
 export GREP_OPTIONS="--color=auto"
