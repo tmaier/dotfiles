@@ -74,3 +74,6 @@ HELPDIR=/usr/local/share/zsh/helpfiles
 
 # Activate zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+# Activate zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
