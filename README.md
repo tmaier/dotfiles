@@ -40,3 +40,8 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ## Whats remaining?
 
 1. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+2. Set up iTerm2
+  ```
+  rm ~/Library/Preferences/com.googlecode.iterm2.plist
+  ln -s ~/.homesick/repos/dotfiles/preferences/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+  ```
