@@ -1,0 +1,13 @@
+'exception-reporting':
+  'userId': '1fd89cfe-0c0e-3404-461e-b1df8aac73da'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '993fd3cdfb08ce0622d1d05fa0b5d3908c069ead'
+'editor':
+  'fontSize': 16
+'core':
+  'themes': [
+    'solarized-dark-ui'
+    'solarized-dark-syntax'
+  ]
