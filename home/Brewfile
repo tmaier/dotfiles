@@ -27,6 +27,7 @@ install zsh-completions
 install zsh-syntax-highlighting
 install bash
 install bash-completion
+install homebrew/dupes/grep
 
 cask install google-chrome
 cask install atom
