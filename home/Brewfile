@@ -4,6 +4,8 @@
 tap caskroom/cask
 install brew-cask
 
+tap caskroom/fonts
+
 # Make sure we’re using the latest Homebrew
 update
 
@@ -59,6 +61,9 @@ cask install vlc
 cask install skype
 cask install crashplan
 cask install heroku-toolbelt
+
+# Fonts
+cask install font-lato
 
 # Remove outdated versions from the cellar
 cleanup
