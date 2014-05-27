@@ -1,6 +1,7 @@
 [user]
   email = me@tobiasmaier.info
   name = Tobias L. Maier
+
 [core]
   excludesfile = ~/.gitignore_global
   editor = mate
@@ -15,5 +16,9 @@
 
 [github]
   user = tmaier
+
 [mergetool]
   keepBackup = true
+
+[push]
+  default = matching
