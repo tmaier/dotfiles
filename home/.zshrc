@@ -66,6 +66,7 @@ source $ZSH/oh-my-zsh.sh
 DEFAULT_USER="tmaier"
 
 eval "$(rbenv init -)"
+export PATH="/opt/chefdk/bin:$PATH"
 
 # Add support for zsh online help
 unalias run-help
