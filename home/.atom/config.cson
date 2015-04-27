@@ -5,9 +5,11 @@
 'metrics':
   'userId': '993fd3cdfb08ce0622d1d05fa0b5d3908c069ead'
 'editor':
-  'fontSize': 16
+  'invisibles': {}
 'core':
   'themes': [
     'solarized-dark-ui'
     'solarized-dark-syntax'
   ]
+'markdown-preview':
+  'breakOnSingleNewline': true
