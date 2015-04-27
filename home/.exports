@@ -6,3 +6,6 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# http://parallels.github.io/vagrant-parallels/docs/usage.html
+export VAGRANT_DEFAULT_PROVIDER=parallels
