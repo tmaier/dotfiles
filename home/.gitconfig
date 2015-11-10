@@ -22,5 +22,6 @@
 
 [push]
   default = matching
+
 [credential]
 	helper = osxkeychain
