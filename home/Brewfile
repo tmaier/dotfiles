@@ -1,69 +1,44 @@
-# Install command-line tools using Homebrew
-# Usage: `brew bundle Brewfile`
-
-tap caskroom/cask
-install brew-cask
-
-tap caskroom/fonts
-
-# Make sure we’re using the latest Homebrew
-update
-
-# Upgrade any already-installed formulae
-upgrade
-
-cask install xquartz
-cask install chameleon-ssd-optimizer
-
-install git
-install git-flow
-install openssl
-install ruby-build
-install rbenv
-install rbenv-gem-rehash
-install redis
-install mongodb
-install postgresql
-install zsh
-install zsh-completions
-install zsh-syntax-highlighting
-install bash
-install bash-completion
-install homebrew/dupes/grep
-
-cask install google-chrome
-cask install atom
-cask install adobe-creative-cloud
-cask install cyberduck
-cask install dropbox
-cask install dterm
-cask install firefox
-cask install imageoptim
-cask install inkscape
-cask install iterm2
-cask install jabref
-cask install libreoffice
-cask install mactex
-cask install omnifocus
-cask install xtrafinder
-cask install osxfuse
-cask install parallels
-cask install rubymine
-cask install silverlight
-cask install flash-player
-cask install spotify
-cask install teamviewer
-cask install textmate
-cask install tower
-cask install virtualbox
-cask install vagrant
-cask install vlc
-cask install skype
-cask install crashplan
-cask install heroku-toolbelt
-
-# Fonts
-cask install font-lato
-
-# Remove outdated versions from the cellar
-cleanup
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+tap 'homebrew/versions'
+brew 'bash'
+brew 'bash-completion'
+brew 'git'
+brew 'git-flow-avh'
+brew 'heroku-toolbelt'
+brew 'node'
+brew 'ruby-build'
+brew 'rbenv'
+brew 'rbenv-gem-rehash'
+brew 'zsh'
+brew 'zsh-syntax-highlighting'
+brew 'homebrew/dupes/grep'
+cask 'atom'
+cask 'chameleon-ssd-optimizer'
+cask 'chefdk'
+cask 'clamxav'
+cask 'crashplan'
+cask 'cyberduck'
+cask 'disk-inventory-x'
+cask 'dropbox'
+cask 'dterm'
+cask 'epubquicklook'
+cask 'firefox'
+cask 'font-lato'
+cask 'google-chrome'
+cask 'imageoptim'
+cask 'iterm2'
+cask 'libreoffice'
+cask 'parallels'
+cask 'rubymine'
+cask 'skype'
+cask 'spotify'
+cask 'textmate'
+cask 'tower'
+cask 'vagrant'
+cask 'virtualbox'
+cask 'vlc'
+cask 'xtrafinder'
