@@ -19,7 +19,6 @@ homesick symlink dotfiles
 
 ### Update
 
-
 ```bash
 homesick pull dotfiles
 ```
@@ -35,7 +34,8 @@ When setting up a new Mac, you may want to set some sensible OS X defaults:
 ## Install Homebrew formulae
 
 1. Install [Homebrew](http://brew.sh)
-2. Run `brew bundle ~/Brewfile`
+1. Install [Brew Bundle](https://github.com/Homebrew/homebrew-bundle) with `brew tap Homebrew/bundle`
+1. Run `cd ~ && brew bundle`
 
 ## Whats remaining?
 
