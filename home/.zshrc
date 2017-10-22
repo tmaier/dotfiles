@@ -57,7 +57,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow-avh brew brew-cask osx rbenv rails vagrant textmate bundler heroku bundler)
+plugins=(git git-flow-avh brew brew-cask osx rbenv rails vagrant textmate bundler heroku bundler docker)
 
 source $ZSH/oh-my-zsh.sh
 
