@@ -1,18 +1,41 @@
 "*":
+  "autocomplete-ruby":
+    rsensePath: "/usr/local/opt/rbenv/shims/rsense"
   core:
+    disabledPackages: [
+      "spell-check"
+      "language-go"
+      "language-java"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "terminal-plus"
+    ]
+    projectHome: "~/Documents/Code"
+    telemetryConsent: "limited"
     themes: [
-      "solarized-dark-ui"
+      "atom-dark-ui"
       "solarized-dark-syntax"
     ]
   editor:
-    fontSize: 17
+    fontSize: 18
     invisibles: {}
   "exception-reporting":
     userId: "1fd89cfe-0c0e-3404-461e-b1df8aac73da"
+  "linter-rubocop":
+    command: "/usr/local/opt/rbenv/versions/2.3.4/bin/rubocop"
+  "linter-ui-default":
+    panelHeight: 81
   "markdown-preview":
     breakOnSingleNewline: true
+    useGitHubStyle: true
   metrics:
     userId: "993fd3cdfb08ce0622d1d05fa0b5d3908c069ead"
   minimap: {}
+  "spell-check": {}
+  "terminal-plus":
+    core: {}
+    style:
+      theme: "homebrew"
   welcome:
     showOnStartup: false
