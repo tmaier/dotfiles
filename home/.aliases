@@ -24,7 +24,7 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 alias sudo='sudo '
 
 # Get OS X Software Updates, and update installed Homebrew, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew bundle ~/Brewfile'
+alias update='sudo softwareupdate -i -a; upgrade_oh_my_zsh; brew update; brew upgrade ruby-build rbenv'
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
